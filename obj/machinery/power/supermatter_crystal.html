@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;obj&#x2F;machinery&#x2F;power&#x2F;supermatter_crystal - White Dream</title>
+</head>
+<body>
+<header>
+    <a href="index.html">White Dream</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="obj/machinery/power/supermatter_crystal.html#var">Var Details</a></header>
+<main>
+<h1>supermatter crystal <aside>/<a href="obj.html">obj</a>/<a href="obj/machinery.html">machinery</a>/<a href="obj/machinery/power/supermatter_crystal.html">power/supermatter_crystal</a></aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L98">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 98"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/combined_gas">combined_gas</a></th><td>The last air sample's total molar count, will always be above or equal to 0</td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/freonbonus">freonbonus</a></th><td>it allows us to remove the power generation while freon is inside the chamber</td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/gas_change_rate">gas_change_rate</a></th><td>Determines the rate of positve change in gas comp values</td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/h2obonus">h2obonus</a></th><td>used when calculating if the heat resitance from h2o is applied</td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/last_accent_sound">last_accent_sound</a></th><td>cooldown tracker for accent sounds,</td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/n2comp">n2comp</a></th><td>Ranging from 0 to 1, this is used to judge gas composition. It doesn't perfectly match the air around the sm, instead moving up at a rate determined by gas_change_rate per call</td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/psyCoeff">psyCoeff</a></th><td>Var that increases from 0 to 1 when a psycologist is nearby, and decreases in the same way</td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/psyOverlay">psyOverlay</a></th><td>A pinkish overlay used to denote the presance of a psycologist. We fade in and out of this depending on the amount of time they've spent near the crystal</td></tr>
+            <tr><th><a href="obj/machinery/power/supermatter_crystal.html#var/psy_overlay">psy_overlay</a></th><td>Should we check the psy overlay?</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/combined_gas"><aside class="declaration">var </aside>combined_gas
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L161">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 161"/></a></h3>
+        <p>The last air sample's total molar count, will always be above or equal to 0</p><h3 id="var/freonbonus"><aside class="declaration">var </aside>freonbonus
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L158">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 158"/></a></h3>
+        <p>it allows us to remove the power generation while freon is inside the chamber</p><h3 id="var/gas_change_rate"><aside class="declaration">var </aside>gas_change_rate
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L140">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 140"/></a></h3>
+        <p>Determines the rate of positve change in gas comp values</p><h3 id="var/h2obonus"><aside class="declaration">var </aside>h2obonus
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L156">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 156"/></a></h3>
+        <p>used when calculating if the heat resitance from h2o is applied</p><h3 id="var/last_accent_sound"><aside class="declaration">var </aside>last_accent_sound
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L201">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 201"/></a></h3>
+        <p>cooldown tracker for accent sounds,</p><h3 id="var/n2comp"><aside class="declaration">var </aside>n2comp
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L142">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 142"/></a></h3>
+        <p>Ranging from 0 to 1, this is used to judge gas composition. It doesn't perfectly match the air around the sm, instead moving up at a rate determined by gas_change_rate per call</p><h3 id="var/psyCoeff"><aside class="declaration">var </aside>psyCoeff
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L203">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 203"/></a></h3>
+        <p>Var that increases from 0 to 1 when a psycologist is nearby, and decreases in the same way</p><h3 id="var/psyOverlay"><aside class="declaration">var </aside>psyOverlay
+            <aside>&ndash; /<a href="obj.html">obj</a>/overlay/psy</aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L207">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 207"/></a></h3>
+        <p>A pinkish overlay used to denote the presance of a psycologist. We fade in and out of this depending on the amount of time they've spent near the crystal</p><h3 id="var/psy_overlay"><aside class="declaration">var </aside>psy_overlay
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/frosty-dev/white-dream-main/blob/2f7f079bca228b847c852feefab03f253576b312/code/modules/power/supermatter/supermatter.dm#L205">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;power&#x2F;supermatter&#x2F;supermatter.dm 205"/></a></h3>
+        <p>Should we check the psy overlay?</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/frosty-dev/white-dream-main/tree/2f7f079bca228b847c852feefab03f253576b312">2f7f079</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.1</a></footer>
+</body>
+</html>
